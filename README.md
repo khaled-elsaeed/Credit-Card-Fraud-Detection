@@ -18,6 +18,10 @@ The dataset primarily includes numerical input variables resulting from PCA tran
 
 Given the significant class imbalance, traditional accuracy metrics are inadequate. Instead, we recommend evaluating performance using the Area Under the Precision-Recall Curve (AUPRC). This provides a more nuanced understanding of the model's effectiveness in identifying fraudulent transactions within unbalanced datasets.
 
+## Model Performance
+
+In summary, the logistic regression model initially struggled with fraud detection in an imbalanced dataset, showing a recall of 63% and an F1 score of 73%. In contrast, the neural network performed better with a recall of 82% and an F1 score of 78%. Upon balancing the data, a significant enhancement was observed in the logistic regression model, with its recall surging by 33% to an impressive 96%. Meanwhile, the neural network experienced a more moderate increase in recall, reaching 89%. This highlights the efficacy of data balancing in substantially improving the logistic regression model's performance for fraud detection.
+
 ## Data Simulator and Resources
 
 An update in March 2021 introduces a simulator for transaction data, offering a practical handbook on Machine Learning for Credit Card Fraud Detection. Practitioners are encouraged to explore this data simulator and methodologies presented in the handbook for enhanced understanding and application.
